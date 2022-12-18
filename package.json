@@ -1,0 +1,41 @@
+{
+  "name": "graphql-subscriptions",
+  "version": "1.0.0",
+  "description": "Server graphql http and websocket",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "server": "json-server --watch db/db.json --port 4001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"apollo",
+    "server\"",
+    "\"grapgql\"",
+    "\"graphql",
+    "http\"",
+    "\"websocket\"]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "4.3.0",
+    "@graphql-tools/schema": "9.0.12",
+    "axios": "1.2.1",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "graphql": "16.6.0",
+    "graphql-subscriptions": "2.0.0",
+    "graphql-ws": "5.11.2",
+    "json-parser": "3.1.2",
+    "ws": "8.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.17",
+    "json-server": "0.17.1",
+    "typescript": "4.9.4",
+    "uuid": "9.0.0"
+  }
+}

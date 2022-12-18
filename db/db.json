@@ -1,0 +1,61 @@
+{
+  "coins": [
+    {
+      "coinType": "USD",
+      "description": "dolar estadounidense",
+      "purchasePrice": 308,
+      "salePrice": 312
+    },
+    {
+      "coinType": "EUR",
+      "description": "euro",
+      "purchasePrice": 309,
+      "salePrice": 313
+    },
+    {
+      "coinType": "CNY",
+      "description": "yuan",
+      "purchasePrice": 310,
+      "salePrice": 314
+    },
+    {
+      "coinType": "UYU",
+      "description": "peso uruguayo",
+      "purchasePrice": 308,
+      "salePrice": 312
+    },
+    {
+      "coinType": "BRL",
+      "description": "real brasileño",
+      "purchasePrice": 308,
+      "salePrice": 312
+    },
+    {
+      "coinType": "CLP",
+      "description": "peso chileno",
+      "purchasePrice": 308,
+      "salePrice": 312
+    },
+    {
+      "coinType": "CRC",
+      "description": "Colón Costarricense",
+      "salePrice": 125,
+      "purchasePrice": 128,
+      "id": "9311d845-08d3-45cd-8710-923e39a84f98"
+    },
+    {
+      "coinType": "COP",
+      "description": "Peso colombiano",
+      "salePrice": 180,
+      "purchasePrice": 182,
+      "id": "75b5b8f9-db74-4b05-80d4-4f7dc9f9ba9a"
+    },
+    {
+      "coinType": "GBP",
+      "description": "Libra esterlina",
+      "salePrice": 182,
+      "purchasePrice": 184,
+      "id": "672148e3-8574-40d6-ab46-0dc6e98c96f9"
+    }
+  ]
+}
