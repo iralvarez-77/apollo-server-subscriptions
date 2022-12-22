@@ -41,7 +41,7 @@ const resolvers = {
   
   Query: {
     coins: async () => {
-      const { data } = await axios.get(URL_APi_FAKE);
+      const { data } = await axios.get('http://localhost:4001/coins');
       return data;
     }
   },
