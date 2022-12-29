@@ -1,5 +1,5 @@
 {
-  "name": "graphql-subscriptions",
+  "name": "graphql-subscriptions-server",
   "version": "1.0.0",
   "description": "Server graphql http and websocket",
   "main": "index.ts",
